@@ -42,6 +42,7 @@ module.exports = function(passport) {
 
 			// Al igual que antes, si el usuario ya existe lo devuelve
 			// y si no, lo crea y salva en la base de datos
+			
 			var user = new User({
 				provider_id	: profile.id,
 				provider		 : profile.provider,
