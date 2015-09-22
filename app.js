@@ -4,7 +4,7 @@ var path = require('path');
 
 var mongoose = require('mongoose'); 
 var passport = require('passport'); 
-var config = require('./config');
+//var config = require('./config');
 var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
