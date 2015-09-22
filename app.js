@@ -4,7 +4,6 @@ var path = require('path');
 
 var mongoose = require('mongoose'); 
 var passport = require('passport'); 
-//var config = require('./config');
 var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -14,6 +13,7 @@ var session = require('express-session');
 var errorhandler = require('errorhandler')
 
 require('./models/user');
+require('./models/raffle');
 require('./passport')(passport);
 
 mongoose.connect(process.env.MONGOLAB_URI, function(err, res) {
