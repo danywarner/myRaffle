@@ -1,4 +1,4 @@
-passportjs-example
+myRaffle
 ==================
 
-An example of use PassportJS to login with Twitter &amp; Facebook in Node.js
+myRaffle application back-end
