@@ -5,7 +5,7 @@ var FacebookStrategy = require('passport-facebook').Strategy;
 // Fichero de configuración donde se encuentran las API keys
 // Este archivo no debe subirse a GitHub ya que contiene datos
 // que pueden comprometer la seguridad de la aplicación.
-var config = require('./config');
+//var config = require('./config');
 
 // Exportamos como módulo las funciones de passport, de manera que
 // podamos utilizarlas en otras partes de la aplicación.
