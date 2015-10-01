@@ -29,7 +29,7 @@ app.set('view engine', 'jade');
 app.use(favicon(__dirname + '/public/favicon.ico'));
 
 // Middlewares de Express que nos permiten enrutar y poder
-// realizar peticiones HTTP (GET, POST, PUT, DELETE)
+// realizar peticiones HTTP (GET, POST, PUT, DELETE)...
 app.use(cookieParser());
 app.use(logger('dev'));
 app.use(bodyParser.urlencoded({extended: true}));
